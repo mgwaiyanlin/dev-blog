@@ -1,5 +1,7 @@
 // import './App.css'
+import Hero from "./Hero"
 import Navbar from "./Navbar"
+import HomeBlog from "./HomeBlog"
 
 function App() {
 
@@ -7,8 +9,8 @@ function App() {
     <>
       <Navbar />
       <div className="pt-24 container mx-auto">
-        <h3 className="text-2xl font-bold text-center mb-2">Welcome to DevBlog</h3>
-        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique quisquam, ex sed nostrum sequi autem officiis accusantium cumque quas.</p>
+        <Hero />
+        <HomeBlog />
       </div>
     </>
   )
